@@ -1,8 +1,19 @@
-import React from 'react'
+import Desc from './components/Desc';
+import Demo from './components/Demo';
+import './App.css';
 
 const App = () => {
     return (
-        <div>App</div>
+        <main>
+            <div className='main'>
+                <div className='gradient' />
+            </div>
+
+            <div className='app'>
+                <Desc />
+                <Demo />
+            </div>
+        </main>
     )
 }
 
